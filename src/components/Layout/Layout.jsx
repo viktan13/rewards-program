@@ -21,7 +21,7 @@ const Layout = () => {
         <div>
             <nav className={cls.navbar}>
                 {navabarMenu.map(link => (
-                    <Link  to={link.path} className={`${cls.link} ${link.name === active ? cls.active : null}`} onClick={setActiveLink(link.name)}>{link.name}</Link>
+                    <Link key={link.path} to={link.path} className={`${cls.link} ${link.name === active ? cls.active : null}`} onClick={setActiveLink(link.name)}>{link.name}</Link>
                 ))}
             </nav>
             <Outlet />

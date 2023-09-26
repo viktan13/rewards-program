@@ -1,0 +1,33 @@
+{
+  "transactions": [
+    { "id": 1, "customerId": 1, "product": "product1", "price": 75, "quantity": 2, "total": 150, "date":  "05.02.2023"},
+    { "id": 2, "customerId": 1, "product": "product2", "price": 20, "quantity": 4, "total": 80, "date":  "05.10.2023"},
+    { "id": 3, "customerId": 1, "product": "product3", "price": 50, "quantity": 3, "total": 150, "date":  "05.18.2023"},
+    { "id": 4, "customerId": 1, "product": "product4", "price": 48, "quantity": 2, "total": 96, "date":  "05.26.2023"},
+    { "id": 5, "customerId": 2, "product": "product5", "price": 80, "quantity": 1, "total": 80, "date":  "05.03.2023"},
+    { "id": 6, "customerId": 2, "product": "product6", "price": 80, "quantity": 3, "total": 240, "date":  "05.14.2023"},
+    { "id": 7, "customerId": 2, "product": "product7", "price": 15, "quantity": 8, "total": 120, "date":  "05.19.2023"},
+    { "id": 8, "customerId": 2, "product": "product8", "price": 150, "quantity": 1, "total": 150, "date":  "05.22.2023"},
+    { "id": 9, "customerId": 1, "product": "product9", "price": 60, "quantity": 1, "total": 60, "date":  "06.02.2023"},
+    { "id": 10, "customerId": 1, "product": "product10", "price": 80, "quantity": 1, "total": 80, "date":  "06.12.2023"},
+    { "id": 11, "customerId": 1, "product": "product11", "price": 30, "quantity": 4, "total": 120, "date":  "06.22.2023"},
+    { "id": 12, "customerId": 1, "product": "product12", "price": 35, "quantity": 2, "total": 70, "date":  "06.29.2023"},
+    { "id": 13, "customerId": 2, "product": "product13", "price": 120, "quantity": 2, "total": 240, "date":  "06.04.2023"},
+    { "id": 14, "customerId": 2, "product": "product14", "price": 102, "quantity": 3, "total": 306, "date":  "06.14.2023"},
+    { "id": 15, "customerId": 2, "product": "product15", "price": 12, "quantity": 8, "total": 96, "date":  "06.21.2023"},
+    { "id": 16, "customerId": 2, "product": "product16", "price": 75, "quantity": 2, "total": 150, "date":  "06.30.2023"},
+    { "id": 17, "customerId": 1, "product": "product17", "price": 150, "quantity": 4, "total": 600, "date":  "07.02.2023"},
+    { "id": 18, "customerId": 1, "product": "product18", "price": 61, "quantity": 1, "total": 61, "date":  "07.15.2023"},
+    { "id": 19, "customerId": 1, "product": "product19", "price": 25, "quantity": 4, "total": 100, "date":  "07.18.2023"},
+    { "id": 20, "customerId": 1, "product": "product20", "price": 90, "quantity": 2, "total": 180, "date":  "07.22.2023"},
+    { "id": 21, "customerId": 2, "product": "product21", "price": 65, "quantity": 3, "total": 195, "date":  "07.05.2023"},
+    { "id": 22, "customerId": 2, "product": "product22", "price": 50, "quantity": 2, "total": 100, "date":  "07.12.2023"},
+    { "id": 23, "customerId": 2, "product": "product23", "price": 22, "quantity": 3, "total": 66, "date":  "07.21.2023"},
+    { "id": 24, "customerId": 2, "product": "product24", "price": 51, "quantity": 1, "total": 51, "date":  "07.29.2023"}
+
+  ],
+  "customers": [
+    {"id":  1, "firstName":  "John", "lastName":  "Doyle"},
+    {"id":  2, "firstName":  "Kim", "lastName":  "Reynolds"}
+  ]
+}
