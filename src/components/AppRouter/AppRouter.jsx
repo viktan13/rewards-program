@@ -16,7 +16,7 @@ const AppRouter = (props) => {
             <Route path={'/'} element={<Layout/>}>
                 <Route index element={<Home/>}/>
                 <Route path='transactions' element={<Transactions transactions={transactions} customers={customers}/>}/>
-                <Route path='rewards' element={<Rewards/>}/>
+                <Route path='rewards' element={<Rewards transactions={transactions} customers={customers}/>}/>
             </Route>
         </Routes>
     );
